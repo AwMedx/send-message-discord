@@ -1,9 +1,9 @@
 import requests
 
 user_token = 'XXXXXXXXX' # Find Discord token: https://www.androidauthority.com/get-discord-token-3149920/
-channelID = 'ChannelID' # Right Click and Copy Channel ID, PASTE HERE
 
 message = input("Enter Message: ")
+channelID = input("Enter Channel ID: ") # Right Click and Copy Channel ID, PASTE HERE
 
 def send_message(msg, channel_id):
     headers = {
